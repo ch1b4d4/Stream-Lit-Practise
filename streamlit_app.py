@@ -4,7 +4,7 @@ import numpy as np
 
 
 st.title('PROFILING GREENHOUSE GAS EMISSIONS IN RELATION TO POLLUTION LEVELS IN EUROPEAN COUNTRIES')
-st.write(" This is a comment line")
+st.write(" This is a comment line only")
 
 with data:
   st.header
