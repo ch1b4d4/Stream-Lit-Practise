@@ -9,7 +9,7 @@ st.write(" This is a comment line")
 
 historical_emissions = ('https://github.com/ch1b4d4/Stream-Lit-Practise/blob/main/historical_emissions.csv')
 
-st.write(historical_emissions)
+st.DataFrame(historical_emissions)
 
 
 
