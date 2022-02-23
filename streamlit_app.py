@@ -1,5 +1,3 @@
-
-from st_aggrid import AgGrid
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -11,6 +9,7 @@ st.write(" This is a comment line")
 
 historical_emissions = ('https://github.com/ch1b4d4/Stream-Lit-Practise/blob/main/historical_emissions.csv')
 
-
+hist_view = pd.read_csv(historical_emissions)
+st.write(hist_view)
 
 
