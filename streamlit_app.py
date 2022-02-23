@@ -7,7 +7,7 @@ st.title('PROFILING GREENHOUSE GAS EMISSIONS IN RELATION TO POLLUTION LEVELS IN 
 st.write(" This is a comment line")
 
 
-historical_emissions = ('/Users/la/Downloads/Clean Data/historical_emissions.csv')
+historical_emissions = ('https://github.com/ch1b4d4/Stream-Lit-Practise/blob/main/historical_emissions.csv')
 
 def load_data(nrows):
     data = pd.read_csv(historical_emissions, nrows=nrows)
