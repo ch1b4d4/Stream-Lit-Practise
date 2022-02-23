@@ -16,7 +16,5 @@ def load_data(nrows):
     return data
 
 
-st.subheader('Raw data')
-st.write(data)
 
 
