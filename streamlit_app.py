@@ -10,9 +10,6 @@ st.write(" This is a comment line")
 
 
 historical_emissions = ('https://github.com/ch1b4d4/Stream-Lit-Practise/blob/main/historical_emissions.csv')
-pd.read_csv(historical_emissions)
-
-st.dataframe(historical_emissions)
 
 
 
