@@ -12,6 +12,9 @@ historical_emissions = ('https://github.com/ch1b4d4/Stream-Lit-Practise/blob/mai
 df = pd.read_csv('historical_emissions.csv')
 st.write(df.head())
 
+#Text body Landing Page
+st.text('Polution........')
+
 #df = pd.DataFrame(historical_emissions)
 
 #st.dataframe(df)
